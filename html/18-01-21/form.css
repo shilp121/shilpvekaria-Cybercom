@@ -1,0 +1,29 @@
+#cp_body
+{
+	background-color: #B7B3B3;
+}
+
+#div1 label
+{
+	width: 90px;
+	display: inline-block;
+	text-align: right;
+}
+
+#div2 label
+{
+	width: 90px;
+	display: inline-block;
+	text-align: right;
+}
+
+#div3 label
+{
+	width: 90px;
+	display: inline-block;
+	text-align: right;
+}
+td
+{
+	align-items: center;
+}
