@@ -1,0 +1,41 @@
+
+.input-icons i {
+	position: absolute;
+}
+
+.input-icons{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.input-text{
+	width: 100%;
+	padding:10px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.icon {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;-webkit-text-stroke-color: #A9A9A9; 
+    padding: 30px; 
+    min-width: 40px; 
+} 
+::placeholder { 
+    color: #A9A9A9 ;
+    opacity: 1;
+
+}
+.button{
+   	border:none;
+   	color: white;
+   	background-color: #8A2BE2;
+   	font-size: 12px;
+   	padding: 10px 30px;
+   	cursor: pointer;
+   	text-align: center;
+   	outline: none;
+  	border-radius: 25px;
+  	margin-top: 20px;
+   	box-shadow: 0 9px #999;
+}
