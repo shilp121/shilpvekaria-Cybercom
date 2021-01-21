@@ -1,0 +1,60 @@
+<!DOCTYPE html></!DOCTYPE html>
+<html>
+<head>
+	<title>User.html</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ 
+
+</head>
+<body>
+  <div class="row">
+    <div class="col-sm-3 col-md-6 col-lg-4" style="background-color:#FFA500;">
+     
+      <label>Hello,[Name]</label><br><br><br><br><br><br><br><br><br><br><br>
+      <a  id='Dashboard' href='login.html'>Dashboard</a><br>
+      <a id='Users'>Users</a><br>
+      <a id='login-session'>login<br>session</a><br>
+      <a id='logout' href="login.html">Logout</a>
+    </div>
+
+    <div class="col-sm-9 col-md-6 col-lg-8">
+      <label>Add user</label><br>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName" placeholder="fullName">
+                        <input type="text" name="email" id="email" placeholder="email">
+                        <input type="text" name="password" id="password" placeholder="password">
+                        <input type="text" name="birthdate" id="birthdate" placeholder="birthdate">
+                        <input type="number" name="age" id="age" placeholder="age">
+                        <br><br>
+                    <div  class="form-action-buttons">
+                        <input  type="submit" value="Submit">
+                    </div>
+                </form>
+                <br><br>
+                <table border="1" class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>email</th>
+                            <th>Password</th>
+                            <th>birthdate</th>
+                            <th>Age</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            
+    </div>
+  </div>
+  <script type="text/javascript" src="user.js"></script>
+</body>
+</html>
