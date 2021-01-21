@@ -1,0 +1,60 @@
+<!DOCTYPE html></!DOCTYPE html>
+<html>
+<head>
+	<title>User.html</title>
+  <link rel="stylesheet" href="dashboard.css"/>
+
+</head>
+<body>
+   <nav>
+        <ul>
+            <li>
+                <h5><label id="name">Hello, </label></h5>
+            </li>
+            <li>
+                <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="user.html">User</a>
+            </li>
+            <li>
+                <a href="Login_Session.html">Login Session</a>
+            </li>
+            <li>
+                <a href="login.html" >Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+     <label>Add user</label><br>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <label class="validation-error hide" id="fullNameValidationError"></label>
+                        <input type="text" name="fullName" id="fullName" placeholder="fullName">
+                        <input type="text" name="email" id="email" placeholder="email">
+                        <input type="text" name="password" id="password" placeholder="password">
+                        <input type="text" name="birthdate" id="birthdate" placeholder="birthdate">
+                        <input type="number" name="age" id="age" placeholder="age">
+                        <br><br>
+                    <div  class="form-action-buttons">
+                        <input  type="submit" value="Add Users">
+                    </div>
+                </form>
+                <br><br>
+                <table border="1" class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>email</th>
+                            <th>Password</th>
+                            <th>birthdate</th>
+                            <th>Age</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+<script type="text/javascript" src="user.js"></script>
+</body>
+</html>
