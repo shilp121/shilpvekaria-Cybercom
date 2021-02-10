@@ -1,0 +1,26 @@
+.head{
+	text-align: center;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+}
+fieldset{
+	width: 60%; 
+	font-family: "Lucida Console",monospace;
+	background-color: #33ff33;
+}
+
+#agree{
+	text-align: center;
+}
+tr.btn{
+	text-align: center;
+}
+
+tr.agree{
+	text-align: center;
+}
